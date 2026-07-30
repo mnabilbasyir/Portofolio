@@ -31,7 +31,7 @@ export default function AboutPage() {
                 {[
                   { label: "Nama", value: "Muhammad Nabil Basyir" },
                   { label: "Kelas", value: "XII RPL 1" },
-                  { label: "Sekolah", value: "SMK ..." },
+                  { label: "Sekolah", value: "SMK Telkom Makassar" },
                   { label: "Lokasi", value: "Indonesia" },
                 ].map((item) => (
                   <div
@@ -80,10 +80,7 @@ export default function AboutPage() {
                   Tujuan Saya
                 </h2>
                 <p className="text-gray-400 leading-relaxed">
-                  Saya ingin terus berkembang menjadi full-stack web developer
-                  yang handal. Melalui portofolio ini, saya ingin menunjukkan
-                  hasil kerja dan kemampuan yang telah saya bangun selama
-                  belajar di jurusan RPL.
+                  Jadi orang kaya
                 </p>
               </div>
             </div>
@@ -104,7 +101,7 @@ export default function AboutPage() {
                     2024 - Sekarang
                   </span>
                   <h3 className="text-white font-semibold mt-1">
-                    SMK ... - XII RPL 1
+                    SMK Telkom Makassar - XII RPL 1
                   </h3>
                   <p className="text-gray-400 text-sm mt-1">
                     Mempelajari pemrograman web, mobile, dan desktop. Fokus
@@ -120,7 +117,7 @@ export default function AboutPage() {
                   <span className="text-xs text-gray-500 font-medium">
                     2021 - 2024
                   </span>
-                  <h3 className="text-white font-semibold mt-1">SMP ...</h3>
+                  <h3 className="text-white font-semibold mt-1">SMP YPS Sorowako</h3>
                   <p className="text-gray-400 text-sm mt-1">
                     Masa SMP dimana mulai tertarik dengan dunia teknologi dan
                     komputer.

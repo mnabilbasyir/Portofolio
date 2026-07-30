@@ -115,21 +115,21 @@ export default function ContactPage() {
                   {
                     icon: "📧",
                     title: "Email",
-                    value: "alif@example.com",
+                    value: "mnabilbasyir@gmail.com",
                     description:
-                      "Kirim email kapan saja, saya akan membalas secepatnya.",
+                      "Kirim email kapan saja, saya akan membalas kalo ku baca ji.",
                   },
                   {
                     icon: "📱",
                     title: "Telepon",
-                    value: "+62 812-xxxx-xxxx",
+                    value: "+62 812-8247-8428",
                     description:
-                      "Tersedia di jam sekolah (08.00 - 15.00 WIB).",
+                      "Tersedia selamanya selagi masih hidup",
                   },
                   {
                     icon: "📍",
                     title: "Lokasi",
-                    value: "Indonesia",
+                    value: "London",
                     description:
                       "Bisa bekerja sama secara remote maupun offline.",
                   },
@@ -164,13 +164,25 @@ export default function ContactPage() {
                   Social Media
                 </h3>
                 <div className="flex gap-3">
-                  {["GitHub", "LinkedIn", "Instagram"].map((social) => (
+                  {[
+                    { name: "GitHub", url: "https://github.com/mnabilbasyir" },
+                    {
+                      name: "LinkedIn",
+                      url: "https://www.linkedin.com/in/muhammad-nabil-basyir-0475b0426?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+                    },
+                    {
+                      name: "Instagram",
+                      url: "https://www.instagram.com/nabilbsyr?igsh=MWpiM3F2czBjNTIweg==",
+                    },
+                  ].map((social) => (
                     <a
-                      key={social}
-                      href="#"
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="px-4 py-2 rounded-xl bg-gray-800/50 border border-gray-700/50 text-gray-400 text-sm hover:text-white hover:bg-gray-800 transition-all duration-300"
                     >
-                      {social}
+                      {social.name}
                     </a>
                   ))}
                 </div>
