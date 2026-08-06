@@ -8,7 +8,7 @@ export default function AboutPage() {
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
               About{" "}
               <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
-                Me
+                
               </span>
             </h1>
             <p className="text-gray-400 max-w-xl mx-auto">
@@ -23,7 +23,9 @@ export default function AboutPage() {
             <div className="flex flex-col items-center lg:items-start gap-6">
               {/* Ini avatar */}
               <div className="w-48 h-48 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 border border-gray-800/50 flex items-center justify-center">
-                <span className="text-6xl">👤</span>
+                <span className="text-6xl">
+                <img src="/profil.jpg" alt="Profile" className="w-full h-full object-cover rounded-2xl" />
+                </span>
               </div>
 
               {/* Ini cards */}

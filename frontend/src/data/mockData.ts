@@ -44,73 +44,17 @@ export interface Testimonial {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Web Application",
+    title: "Website Restoran Dapur Malioboro",
     category: "Web Dev",
     description:"A full-featured e-commerce platform with cart, payment gateway, and admin panel.",
-    tech: ["Next.js", "React", "Tailwind CSS", "Express.js", "MySQL"],
+    tech: ["Next.js", "React", "Tailwind CSS", "MySQL"],
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 2,
-    title: "Attendance App with GPS",
-    category: "Mobile App",
-    description:"Mobile application for employee attendance tracking with geo-tagging and face detection.",
-    tech: ["React Native", "Expo", "Node.js", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "School Management System Dashboard",
-    category: "UI/UX",
-    description:"Intelligent UI/UX design prototype for managing school courses, students, and grading system.",
-    tech: ["Figma", "UI Design", "Prototyping"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 4,
-    title: "Personal Landing Page Portfolio",
-    category: "Web Dev",
-    description:"Highly responsive, premium dark-themed portfolio site built with speed and animations.",
-    tech: ["HTML", "Vanilla JS", "Tailwind CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 5,
-    title: "Task Management Mobile App",
-    category: "Mobile App",
-    description:"Cross-platform mobile app to track tasks, organize projects, and collaborate with team members.",
-    tech: ["Flutter", "Dart", "Firebase"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Smart Home Control Interface",
-    category: "UI/UX",
-    description:"Modern dark-themed dashboard design for smart home appliance monitoring.",
-    tech: ["Figma", "Interaction Design"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-];
+]
 
 // 2. Data Skills
 const skillGroups: SkillGroup[] = [
-  {
-    title: "Frontend Development",
-    icon: "💻",
-    skills: [
-      { name: "HTML5 / CSS3", level: "Advanced", percentage: 90 },
-      { name: "JavaScript (ES6+)", level: "Advanced", percentage: 85 },
-      { name: "React.js", level: "Intermediate", percentage: 75 },
-      { name: "Next.js (App Router)", level: "Intermediate", percentage: 70 },
-      { name: "Tailwind CSS", level: "Advanced", percentage: 90 },
-    ],
-  },
   {
     title: "Backend & Database",
     icon: "⚙️",
@@ -151,15 +95,15 @@ const certificates: Certificate[] = [
     issuer: "Cisco Networking Academy",
     date: "Juni 2026",
     credentialId: "Cisco",
-    verificationUrl: "https://www.netacad.com/certificates/?issuanceId=99f15484-8472-479a-9001-461e11d2b275",
+    verificationUrl: "https://drive.google.com/file/d/16IXy_pbdKWRi6H6lwE98E8u2oOXZ932h/view?usp=sharing",
     image: "/sertif.png",
   },
   {
     id: 3,
-    title: "Responsive Web Design",
-    issuer: "FreeCodeCamp",
-    date: "Maret 2025",
-    credentialId: "FCC-RESPONSIVE-WD",
+    title: "Medali Perak",
+    issuer: "Olimpiade Solidaritas Pelajar Nasional 5.1",
+    date: "Mei 2026",
+    credentialId: "https://drive.google.com/file/d/13pQgAap3Os-gQMtd0gCTO3YwwtfXOjx9/view?usp=drivesdk",
     verificationUrl: "#",
   },
 ];
@@ -168,9 +112,9 @@ const certificates: Certificate[] = [
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Drs. Eko Prasetyo",
+    name: "Farid Mawardi S Pd",
     role: "Kepala Jurusan RPL",
-    company: "SMK Negeri 1",
+    company: "SMK Telkom Makassar",
     avatar: "👨‍🏫",
     stars: 5,
     quote:
@@ -178,7 +122,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Rian Ardiansyah",
+    name: "Aufa Safaraz Prianda",
     role: "Teman Sekolah / Ketua Kelas",
     company: "XII RPL 1",
     avatar: "🧑‍💻",
@@ -188,9 +132,9 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Siti Rahmawati",
-    role: "Guru Produktif Web & Mobile",
-    company: "SMK Negeri 1",
+    name: "Oktavian",
+    role: "Guru Produktif RPL",
+    company: "SMK Telkom Makassar",
     avatar: "👩‍🏫",
     stars: 5,
     quote:

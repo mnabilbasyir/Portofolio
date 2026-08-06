@@ -76,7 +76,7 @@ export default function PortfolioPage() {
                 >
                   <div className="aspect-video bg-gradient-to-br from-indigo-500/10 to-violet-500/10 flex items-center justify-center border-b border-gray-800/50 group-hover:from-indigo-500/15 group-hover:to-violet-500/15 transition-all duration-300">
                     <span className="text-4xl group-hover:scale-110 transition-transform duration-300">
-                      🚀
+                      Mantap Menn
                     </span>
                   </div>
 
