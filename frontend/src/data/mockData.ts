@@ -141,16 +141,17 @@ const certificates: Certificate[] = [
     issuer: "ASEAN FOUNDATION",
     date: "July 2026",
     credentialId: "Asean foundation",
-    verificationUrl: "#",
+    verificationUrl: "https://www.aiclassasean.org/certificate/eyJpdiI6Ik5wMG9MUHRYYzJtaVBwMndYK3FEeFE9PSIsInZhbHVlIjoiWWhycExMZGk2VlYrbjZNMEFwRVNQdz09IiwibWFjIjoiZTIyNjBiZTZjZjc5MWQzMjllYzMyMWQ4YTAxZTRmNzc2ZjQ3OWE5ZDY2YzU1YmZkYzdkZjkxYzA3OTM2YzJmNyIsInRhZyI6IiJ9?v=1",
     image: "/certif.png",
   },
+  
   {
     id: 2,
     title: "JavaScript Essentials 2",
     issuer: "Cisco Networking Academy",
     date: "Juni 2026",
     credentialId: "Cisco",
-    verificationUrl: "#",
+    verificationUrl: "https://www.netacad.com/certificates/?issuanceId=99f15484-8472-479a-9001-461e11d2b275",
     image: "/sertif.png",
   },
   {
@@ -159,22 +160,6 @@ const certificates: Certificate[] = [
     issuer: "FreeCodeCamp",
     date: "Maret 2025",
     credentialId: "FCC-RESPONSIVE-WD",
-    verificationUrl: "#",
-  },
-  {
-    id: 4,
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "FreeCodeCamp",
-    date: "April 2025",
-    credentialId: "FCC-JS-ALGO",
-    verificationUrl: "#",
-  },
-  {
-    id: 5,
-    title: "Junior Web Developer",
-    issuer: "BNSP / LSP Informatika",
-    date: "Mei 2025",
-    credentialId: "BNSP-JWD-2025",
     verificationUrl: "#",
   },
 ];
