@@ -1,5 +1,5 @@
 interface SkeletonCardProps {
-  variant?: "project" | "certificate" | "testimony";
+  variant?: "project" | "certificate" | "testimonial";
 }
 
 export default function SkeletonCard({ variant = "project" }: SkeletonCardProps) {
@@ -20,7 +20,7 @@ export default function SkeletonCard({ variant = "project" }: SkeletonCardProps)
     );
   }
 
-  if (variant === "testimony") {
+  if (variant === "testimonial") {
     return (
       <div className="p-6 sm:p-8 rounded-2xl bg-gray-900/40 border border-gray-800/40 animate-pulse flex flex-col justify-between h-72">
         <div>
